@@ -1,0 +1,34 @@
+[ 2018-03-21T19:14:16+08:00 ] ::1 /TP3.2Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019654s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.3759s ]
+SQL: SELECT * FROM `blog_cate` ORDER BY sort desc  [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.1117s ]
+SQL: SELECT * FROM `blog_link` ORDER BY sort desc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0977s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0565s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time asc LIMIT 0,5   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000878s ]
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.590998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.591490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.035374s ]
+

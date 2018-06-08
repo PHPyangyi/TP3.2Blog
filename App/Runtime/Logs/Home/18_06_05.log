@@ -1,0 +1,294 @@
+[ 2018-06-05T12:23:00+08:00 ] ::1 /Tp3.2Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010628s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-06-05T12:23:25+08:00 ] ::1 /Tp3.2Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009025s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0295s ]
+SQL: SELECT * FROM `blog_cate` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `blog_link` ORDER BY sort desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0318s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time asc LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000628s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001439s ]
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014634s ]
+
+[ 2018-06-05T12:23:32+08:00 ] ::1 /Tp3.2Blog/index.php/Home/Cate/index/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002831s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0379s ]
+SQL: SELECT * FROM `blog_cate` ORDER BY sort desc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0367s ]
+SQL: SELECT * FROM `blog_link` ORDER BY sort desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE `cateid` = 6 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_article` WHERE `cateid` = 6 ORDER BY time asc LIMIT 0,2   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000844s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003184s ]
+
+[ 2018-06-05T12:23:36+08:00 ] ::1 /Tp3.2Blog/index.php/Home/Cate/index/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003487s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `blog_cate` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0626s ]
+SQL: SELECT * FROM `blog_link` ORDER BY sort desc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE `cateid` = 5 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `blog_article` WHERE `cateid` = 5 ORDER BY time asc LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005128s ]
+
+[ 2018-06-05T12:23:43+08:00 ] ::1 /Tp3.2Blog/index.php/Home/Cate/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011861s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `blog_cate` ORDER BY sort desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `blog_link` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE `cateid` = 4 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `blog_article` WHERE `cateid` = 4 ORDER BY time asc LIMIT 0,2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000933s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013837s ]
+
+[ 2018-06-05T12:23:44+08:00 ] ::1 /Tp3.2Blog/index.php/Home/Cate/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010454s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `blog_cate` ORDER BY sort desc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `blog_link` ORDER BY sort desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE `cateid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_article` WHERE `cateid` = 3 ORDER BY time asc LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000927s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016322s ]
+
+[ 2018-06-05T12:23:45+08:00 ] ::1 /TP3.2Blog/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004869s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `blog_cate` ORDER BY sort desc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `blog_link` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time asc LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000470s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001004s ]
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013537s ]
+
+[ 2018-06-05T12:23:48+08:00 ] ::1 /TP3.2Blog/index.php/Home/Article/index/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004318s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `blog_cate` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `blog_link` ORDER BY sort desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `blog_article` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `blog_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_article` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id<13 ) AND `cateid` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id>13 ) AND `cateid` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000543s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\7540f392f42b28b481b30614275e4e55.php 第 50 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\7540f392f42b28b481b30614275e4e55.php 第 50 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\7540f392f42b28b481b30614275e4e55.php 第 50 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\7540f392f42b28b481b30614275e4e55.php 第 50 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\7540f392f42b28b481b30614275e4e55.php 第 50 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\7540f392f42b28b481b30614275e4e55.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014678s ]
+
+[ 2018-06-05T12:23:53+08:00 ] ::1 /TP3.2Blog/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003801s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `blog_cate` ORDER BY sort desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `blog_link` ORDER BY sort desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time asc LIMIT 0,5   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000470s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000986s ]
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.040246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030328s ]
+
+[ 2018-06-05T12:23:57+08:00 ] ::1 /TP3.2Blog/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003588s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `blog_cate` ORDER BY sort desc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `blog_link` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `blog_article` ORDER BY time asc LIMIT 0,5   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+NOTIC: [8] Undefined variable: current C:\wamp\www\TP3.2Blog\App\Runtime\Cache\Home\cdac79174c15306e6d18489b52381cb2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014675s ]
+

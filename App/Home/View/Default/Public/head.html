@@ -1,0 +1,13 @@
+<div class="topbar" >
+	<div class="inner">
+		<ul class="nav">
+			<li style="font-size: 20px;color: #fff; width: 50px;height: 40px; line-height: 40px; text-align: center"><a style="display: block; width: 45px;"
+					href="http://localhost/TP3.2Blog/index.php/Index/index">首页</a></li>
+			<volist name="cateres" id="vo">
+			<li
+				<if condition="$current eq $vo['id']">class='current-menu-item'</if> ><a href="__MODULE__/Cate/index/id/{$vo.id}">{$vo.catename}</a>
+				</li>
+			</volist>
+		</ul>
+	</div>
+</div>

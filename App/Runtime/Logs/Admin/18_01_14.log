@@ -1,0 +1,55 @@
+[ 2018-01-14T20:43:16+08:00 ] ::1 /TP3.2Blog/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001620s ]
+
+[ 2018-01-14T20:43:19+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002524s ]
+
+[ 2018-01-14T20:43:20+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002157s ]
+
+[ 2018-01-14T20:43:30+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002663s ]
+
+[ 2018-01-14T20:43:33+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007446s ]
+
+[ 2018-01-14T20:43:33+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002352s ]
+
+[ 2018-01-14T20:43:40+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004550s ]
+
+[ 2018-01-14T20:43:42+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001630s ]
+
+[ 2018-01-14T20:43:44+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Cate/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+
+[ 2018-01-14T20:43:46+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Article/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002833s ]
+
+[ 2018-01-14T20:43:47+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Admin/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+

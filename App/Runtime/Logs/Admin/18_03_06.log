@@ -1,0 +1,15 @@
+[ 2018-03-06T23:39:27+08:00 ] ::1 /TP3.2Blog/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+
+[ 2018-03-06T23:39:31+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+
+[ 2018-03-06T23:39:31+08:00 ] ::1 /TP3.2Blog/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002047s ]
+
